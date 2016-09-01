@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="Logo.ico" />
+    <title>Atendiendo un cliente</title>
+    <script src="http://localhost:8056/socket.io/socket.io.js" type="text/javascript" language="javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="Js/chatAtencion.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />  
+  </head>
+  <body onLoad="leer();">
+    <audio id="privado" src="Sonidos/privado.ogg"></audio>
+    <div id="private_messages_cliente"></div>
+    <div id="message_entry_cliente">
+      <input type="text" name="message" id="message_cliente"/> 
+      <button id="sendMessage" name="sendMessage" onClick="sendMessage()">Enviar</button>
+    </div> 
+ </body>
+</html>
