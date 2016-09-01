@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="Logo.ico"/>
+    <title>Chat REDECOM</title>
+    <script src="http://localhost:8056/socket.io/socket.io.js" type="text/javascript" language="javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="Js/Admin.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />  
+  </head>
+  <body onLoad="ocultar();">  
+    <div id="formularioPrincipal">
+      <center><label>Ingrese sus datos:</label></center><br><br>
+      <label>Nombre de usuario:</label><br>
+      <input type="text" id="Usuario" placeholder="Nombre de Usuario" required/>
+      <p></p>
+      <label>Contraseña:</label><br>
+      <input type = "password" id = "Contrasena" placeholder="Contraseña" required/>
+      <button type="submit" id="envio" onClick="enviarPass()">Entrar</button>
+    </div>
+  <audio id="publico" src="Sonidos/publico.ogg"></audio>
+  <audio id="nuevo" src="Sonidos/nuevo.ogg"></audio>
+  <audio id="privado" src="Sonidos/privado.ogg"></audio>
+  <div id="main_container">
+    <div id="users">Usuarios</div>
+    <div id="admins">Administradores</div>   
+    <div id="private_messages"><center><Font color="red"><b>Chat Administradores</b></Font></center><br></div>
+    <div id="chat_screen"><center><Font color="red"><b>Información Clientes</b></Font></center><br>
+      <div id="fondodiv">
+      </div>
+    </div>
+    <div id="message_entry">
+    <input type="text" name="message" id="message" /> 
+    <button id="sendMessage" name="sendMessage" onClick="sendMessage()">Enviar</button>para
+    <select name="userList" id="userList">
+      <option selected value="0"> A Todos </option>
+    </select>
+    <button id="sendMessage" name="sendMessage" onClick="atender()">Atender</button>
+    </div>
+    </div>
+ </body>
+</html>

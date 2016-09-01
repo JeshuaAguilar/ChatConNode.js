@@ -1,0 +1,182 @@
+body{
+  background-image:url(fondo.png);  
+  background-repeat: no-repeat;
+   width: 100%;
+  height: 100%;
+}
+
+div#main_container {
+  position: absolute;
+  top: -0.5%;
+  left: 1%;
+  width: 99%;
+  height: 100%;
+}
+
+div#users {
+  position: absolute;
+  left: 55%;
+  width: 19%;
+  height: 38%;
+  background-color: #ffffff;
+  overflow: auto;
+  box-shadow: 0px 5px 5px rgba(0,0,0,1);
+  border-radius: 1em;
+  margin: 1em auto;
+  padding: 1em;
+  opacity: 0.8;
+}  
+
+div#admins {
+  position: absolute;
+  left: 78%;
+  width: 18%;
+  height: 38%;
+  background-color: #ffffff;
+  overflow: auto;
+  box-shadow: 0px 5px 5px rgba(0,0,0,1);
+  border-radius: 1em;
+  margin: 1em auto;
+  padding: 1em;
+  opacity: 0.8;
+}  
+
+div#fondodiv{
+  left: 5%;
+  background-position: center;
+  background-size: 100%, 100%;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  background-image:url(fondoChat.png);  
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+div#chat_screen {
+  background-color: #ffffff;
+  word-wrap: break-word;
+  position: absolute;
+  left: 1%;
+  width: 50%;
+  height: 87%;
+  overflow: auto;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+  border-radius: 1em;
+  margin: 1em auto;
+  padding: 1em;
+  opacity: 0.8;
+}
+
+div#message_entry {
+  position: absolute;
+  left: 1%;
+  top: 95%;
+  width: 98%;
+  height: 28px;
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+
+div#private_messages {
+  word-wrap: break-word;
+  position: absolute;
+  left: 55%;
+  top: 45%;
+  height: 42%;
+  width: 41%;
+  background-color: #ffffff;
+  color: #000000;
+  overflow: auto;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+  border-radius: 1em;
+  margin: 1em auto;
+  padding: 1em;
+  opacity: 0.8;
+}
+input {
+  font-family: Verdana;
+  font-size: 12pt;
+  font-weight: 500;
+}
+input#message {
+  width: 500px;
+}
+tr.selectable {
+  cursor: pointer;
+}
+tr.selectable:hover td {
+  background-color: #FFFFAA;
+}
+
+#formularioPrincipal{
+  position: absolute;
+  top:25%;
+  left:35%; 
+  text-align: left;
+  background:#CCC;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+  border-radius: 1em;
+  margin: 1em auto;
+  padding: 1em;
+  width: 15%;
+  height: 30%;
+}
+
+#formDatos{
+  position: absolute;
+  top:-2%;
+  left:25%;
+  width: 300px;
+  background:#CCC;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+  border-radius: 1em;
+  margin: 1em auto;
+  padding: 1em;
+}
+
+#subrayado{
+  border-bottom:solid;
+  border-width:1px;
+}
+
+
+
+/*************************** CSS CLIENTE ***************************/
+
+div#main_container_cliente {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 500px;
+  height: 500px;
+  background-color: #000000;
+}
+
+div#private_messages_cliente {
+  word-wrap: break-word;
+  float: left;
+  left: 20px;
+  top: 0px;
+  width: 500px;
+  height: 300px;
+  background-color: #CCC;
+  color: #000000;
+  overflow: auto;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+  border-radius: 1em;
+  margin: 1em auto;
+  padding: 1em;
+}
+
+div#message_entry_cliente {
+  float: left;
+  top: 290px;
+  width: 530px;
+  height: 27px;
+  background-color: #CCC;
+}
+
+input#message_cliente {
+  width: 300px;
+}
