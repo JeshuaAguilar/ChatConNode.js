@@ -1,3 +1,5 @@
+Si lo levantan avisen y compánlo para que le llegue a más programadores
+
 Este proyecto lo realicé en el 2013 el cual está a punto de perder pero logré recuperarlo y deseo compartirlo con ustedes espero le saquen provecho y enseñen sus conocimientos, no todo es de mi auditoría agarré un ejemplo y me basé en algunas, de cómo hacer las conexiones y cómo enviar los mensajes pero todo los demás sí lo hice, ya que en ese tiempo no había mucha información sobre Node.js y era algo difícil encontrar ejemplos
 
 NOTA IMPORTANTE 
