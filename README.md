@@ -13,3 +13,6 @@ Abrir el HTML chat.html, en este agregan los datos que pide e ingresan, al momen
 
 
 Dudas o comentarios pueden avisarme.
+
+Manual y Pre-Requisitos
+https://mega.nz/#F!rcJnzRxJ!12tdwtYw-LarQHZnikVh0A
